@@ -24,7 +24,7 @@ mkdir build
 cd build
 cmake ..
 make
-sudo ./lane_det -s             // serialize model to plan file i.e. 'DBNet.engine'
+sudo ./lane_det -s             // serialize model to plan file i.e. 'lane_det.engine'
 sudo ./lane_det -d  ../data // deserialize plan file and run inference, the images in data will be processed.
 ```
 
